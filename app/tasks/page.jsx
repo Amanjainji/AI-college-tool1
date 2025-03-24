@@ -28,7 +28,7 @@ export default function TasksPage() {
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <h2 className="text-xl font-semibold">Today's Tasks</h2>
-                  <Button>
+                  <Button className="flex font-semibold">
                     <Plus className="h-4 w-4 mr-2" />
                     Add Task
                   </Button>

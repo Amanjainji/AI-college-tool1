@@ -32,7 +32,7 @@ export default function StudyAssistantPage() {
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
                       <h3 className="text-lg font-medium">Today's Plan</h3>
-                      <Button variant="outline" size="sm">
+                      <Button className="flex font-semibold" variant="outline" >
                         <Calendar className="h-4 w-4 mr-2" />
                         View Calendar
                       </Button>
